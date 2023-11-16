@@ -12,8 +12,6 @@ import AuthState from "./context/autenticacion/authState"
 
 import tokenAuth from "./config/tokenAuth"
 
-import RutaPrivada from "./components/rutas/RutaPrivada"
-
 
 //Ver si tenemos un token disponible
 const tokencito = localStorage.getItem("tokencito")
